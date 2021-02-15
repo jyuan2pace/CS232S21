@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <string.h>
 
-userinfo info[10000000000000] 
-
 int* swap1(int a, int b){
   int * arr = (int *)malloc(sizeof(int)*2) ;
   arr[0] = b;
