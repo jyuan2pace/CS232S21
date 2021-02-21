@@ -35,9 +35,9 @@ int main()
         (i) The comparison of two strings must be done by checking them one
             character at a time, without using any C string library functions.
             That is, write your own while/for loop to do this.
-       (ii) The swap of two strings must be done by swapping pointers without
-		    copying any chars.
-            without using any C string library functions.
+       (ii) Implement a swap function to swap two strings by swapping pointers
+		    without copying any chars.You are not allowed to use any C library 
+			functions in swap.
       (iii) You are allowed to use strlen() to calculate string lengths.
   */
   /* Output sorted list */
