@@ -36,8 +36,8 @@ int main()
             character at a time, without using any C string library functions.
             That is, write your own while/for loop to do this.
        (ii) Implement a swap function to swap two strings by swapping pointers
-		    without copying any chars.You are not allowed to use any C library 
-			functions in swap.
+	    without copying any chars.You are not allowed to use any C library 
+	    functions in swap.
       (iii) You are allowed to use strlen() to calculate string lengths.
   */
   /* Output sorted list */
