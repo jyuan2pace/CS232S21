@@ -34,7 +34,7 @@ done
 
 count=`grep -wc "[m|c]alloc" construct_3_strs.c`
 if [ $count -lt 6 ]; then
-    echo -e "${RED}*****only used 3 mallocs? did you misuse 3 constant strs for task2?********${NC}"
+    echo -e "${RED}*****only used 3 mallocs? did you misuse 3 constant strs for task6?********${NC}"
     echo -e "${YELLOW}***********failed sanity test***********************${NC}"
     exit 0
 fi
