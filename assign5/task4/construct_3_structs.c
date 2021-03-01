@@ -22,7 +22,6 @@ void teardown(/*what parameter?*/) {
     //You are not allowed to use globals
 }
 
-//You can ignore the following code for testing
 void dump_all(node_t*);
 int main (int argc, char ** argv) {
     node_t * head = setup();

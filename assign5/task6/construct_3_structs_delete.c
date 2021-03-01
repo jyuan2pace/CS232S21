@@ -24,7 +24,6 @@ void delete_node_key(node_t **head, char * key) {
     //TODO: implement delete a node based on key
 	//given a certain key, find and delete. 
 }
-//You can ignore the following code for testing
 void dump_all(node_t*);
 int main (int argc, char ** argv) {
     node_t * head = setup();

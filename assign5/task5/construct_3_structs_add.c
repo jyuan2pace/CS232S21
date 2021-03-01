@@ -17,7 +17,6 @@ void add(node_t ** head, char * str, int length){
     //TODO: implement add to add a new node to front, pointed by head
 }
 
-//You can ignore the following code for testing
 void dump_all(node_t*);
 int main (int argc, char ** argv) {
     node_t * head = setup();
