@@ -100,9 +100,8 @@ uint32_t slist_length(struct slist *l);
  *  
  * @param l pointer to the list (non-NULL)
  * @parap str pointer to a string
- * @return struct snode* or NULL if no match
  */
-struct snode* slist_delete(struct slist *l, char *str);
+void slist_delete(struct slist *l, char *str);
 
 
 #endif /* _slist_H_ */
