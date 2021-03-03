@@ -1,0 +1,18 @@
+Calling mystring_new()
+Calling mystring_delete()
+mystring_new() again
+These should all return space (mystring_get()):      
+Doing a bunch of mystring_set()s
+These should be equal:
+h = h
+a = a
+m = m
+b = b
+z = z
+! = !
+  =  
+  =  
+s = s
+getlen returns 501, success!
+hello world =  hello world
+Test complete.
