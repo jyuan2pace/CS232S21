@@ -8,7 +8,7 @@ test : msb
 	./msb 14
 	
 msb : msb.c
-	gcc -O0 -g -m32 -Wall -std=c11 -o msb msb.c
+	gcc -O0 -g -Wall -std=c11 -o msb msb.c
 	
 clean :
 	-rm msb msb.s
