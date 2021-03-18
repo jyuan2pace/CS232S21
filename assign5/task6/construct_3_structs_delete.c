@@ -4,7 +4,7 @@
 typedef struct snode node_t;
 
 node_t * setup() {
-    //TODO:copy setup func from task2
+    //TODO:copy setup func from previous task
 }
 
 void teardown(/*what parameter?*/) {
