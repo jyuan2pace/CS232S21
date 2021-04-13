@@ -1,0 +1,18 @@
+To create a shared library libvector.so :
+
+1) Comiple your source code into PIC object.
+gcc -c -Wall -std=c11 -fpic vector.c
+
+PIC is code that works no matter where in memory it is placed. Because several different programs(such as foo and vector_test in our demo) can all use one instance of your shared library, the library cannot store things at fixed addresses, since the location of that library in memory will vary from program to program
+
+2) Create shared library:
+gcc -shared -o libvector.so vector.o
+
+3) Link with a shared library:
+gcc -Wall vector_test.c -lvector -o vector_test
+
+4) To find shared library at runtime
+export LD_LIBRARY_PATH=(path-to-your-lib):$LD_LIBRARY_PATH
+
+Question: why we never need to do this with C library (we can directly call printf)?
+
