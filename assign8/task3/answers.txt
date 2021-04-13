@@ -1,0 +1,4 @@
+1.What instructions evaluate “a>6”?
+2.What happens if we delete the “jmp” instruction?
+3.Can you rewrite the condition with “jg” in place of “jle” without changing semantic of the program? Why or why not?
+

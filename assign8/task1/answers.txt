@@ -1,0 +1,8 @@
+1.What instruction is “int a, b, c, d;” converted to? 
+
+2.Does “int a, b, c, d;” shrink or grow the stack? How many bytes are allocated on stack for a, b, c, and d? Explain them using instruction from question 1.
+
+3.What instruction is “b=2;” converted to? How is the address of variable b formed in the instruction?
+
+4.Based on the instructions converted from four assignments, can we claim the declaration order determines the allocation order? For instance, a is declared before b, does it mean a is to be allocated before b on stack? Verify your theory by changing the declaration to “int a, c, b, d;”
+
